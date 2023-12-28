@@ -37,7 +37,7 @@ const Navbar = () => {
                 to="/ProjectsShowcase"
                 className="text-white hover:text-gray-300 focus:outline-none"
               >
-                ProjectShowcase
+                ProjectShowcase1
               </Link>
             </li>
           </ul>
