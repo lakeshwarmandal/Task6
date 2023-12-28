@@ -1,7 +1,10 @@
+import Navbar from "./Navbar";
+
 const ProjectsDetails = () => {
   return (
     <div>
-      <h1>This is my projectsShowcase</h1>
+      <Navbar />
+      <h1>This is my projectsDetails</h1>
     </div>
   );
 };
