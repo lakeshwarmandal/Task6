@@ -1,29 +1,64 @@
 .nav {
   background-color: aqua;
-  height: auto;
-  width: auto;
+}
+.nav1 {
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .imge {
   background-color: rgb(178, 190, 190);
 }
 .h1 {
-  text-align: center;
+  background-color: aliceblue;
 }
 .a {
   background-color: rgb(128, 144, 144);
-  height: 100%;
-  width: 50%;
-  flex-direction: left;
 }
 .b {
   background-color: blanchedalmond;
-  width: 50%;
 }
 .c {
   background-color: blue;
-  width: 50%;
 }
 .d {
   background-color: brown;
-  width: 50%;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.project-card a:hover {
+  background: #e8491d;
 }
