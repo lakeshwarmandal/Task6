@@ -1,9 +1,26 @@
 {
   "student": {
-    "name": "John Doe",
-    "introduction": "I am a passionate and dedicated student with a keen interest in software development.",
-    "skills": ["React", "JavaScript", "HTML", "CSS", "Redux"],
-    "interests": ["Web Development", "Mobile App Development", "UI/UX Design"]
+    "name": "Raunak Joshi",
+    "introduction": "I am a passionate and dedicated student with a keen interest in software development. My hobbies are reading books, playing basketball and ping pong. My favorite food is Pizza. My favorite sports is football and I love swimming.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Redux",
+      "Ruby on Rails",
+      "Express JavaScript",
+      "DevOps",
+      "Amazon Web Services",
+      "Type Script",
+      "Snowflakes schemas"
+    ],
+    "interests": [
+      "Web Development",
+      "Mobile App Development",
+      "UI/UX Design",
+      "Enterprise App development with Java"
+    ]
   },
   "projects": [
     {
