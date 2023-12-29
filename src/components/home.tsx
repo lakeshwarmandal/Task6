@@ -14,22 +14,24 @@ const Home = () => {
           <div className="grid grid-cols-2 gap-0 h-full">
             {/* Left Column */}
             <div className="bg-white p-4 h-full">
-              <h1 className="text-6xl font-semibold mb-4 text-orange-600">
+              <h1 className="text-5xl font-semibold mb-4 text-orange-600">
                 Welcome to {student.name}'s Portfolio
               </h1>
                {" "}
-              <h2 className="text-5xl font-bold mb-2 text-blue-500">
+              <h2 className="text-4xl font-bold mb-2 text-blue-500">
                 Introduction
               </h2>
               <ul className="list-disc list-inside">
-                <p className="text-4xl">{student.introduction}</p>             {" "}
+                <p className="text-4xl font-cursive">{student.introduction}</p> 
+                <br />
                 <h2 className="text-4xl font-bold mb-2 text-blue-500">
                   Skills
                 </h2>
                 <h1 className="text-4xl">
-                  {" "}
                   {student.skills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
+                    <li className="text-4xl" key={index}>
+                      {skill}
+                    </li>
                   ))}
                              {" "}
                 </h1>
