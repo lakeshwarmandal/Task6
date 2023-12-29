@@ -64,6 +64,7 @@ const ProjectsShowcase = () => {
           </div>
         ))}
       </div>
+      <div className="ext">About Lakeshwar</div>
     </div>
   );
 };

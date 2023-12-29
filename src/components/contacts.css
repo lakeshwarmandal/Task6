@@ -1,0 +1,10 @@
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+.con {
+  background-color: aqua;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+}
+.a {
+  background-color: blanchedalmond;
+}
