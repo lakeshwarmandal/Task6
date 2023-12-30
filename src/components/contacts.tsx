@@ -1,39 +1,35 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import "./Contacts.css";
+import studentPortfolioData from "../StudentPortfolio.json";
+import { Link } from "react-router-dom";
 
 const Contacts = () => {
-  return (
-    <div className="">
-      <Navbar />
+  const { student, projects, contact } = studentPortfolioData;
 
-      <div className="con">
-        <div>Jyoti Baskota</div>
-        <div>Email</div>
-        <div className="a">
-          <a href="https://www.github.com/">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.Facebook.com/">
-            <FontAwesomeIcon icon={faFacebook} />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.instagram.com/">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-        </div>
+  return (
+    <div>
+      <Navbar />
+      <div className="container mx-auto mt-8">
+        {" "}
+        <h2 className="text-2xl font-bold mb-4">Contact Information</h2>{" "}
+        <p className="mb-2">
+          Email: <span className="text-blue-500">{contact.email}</span>
+        </p>{" "}
+        <p className="mb-2">
+          LinkedIn:{" "}
+          <Link to={contact.linkedin} className="text-blue-500 hover:underline">
+            {contact.linkedin}
+          </Link>
+        </p>{" "}
+        <p className="mb-2">
+          GitHub:{" "}
+          <Link to={contact.github} className="text-blue-500 hover:underline">
+            {contact.github}
+          </Link>
+        </p>{" "}
       </div>
     </div>
   );
 };
-
 export default Contacts;

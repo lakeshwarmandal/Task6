@@ -24,20 +24,13 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link
-                to="/ProjectsDetails"
-                className="text-white hover:text-gray-300 focus:outline-none"
-              >
-                ProjectsDetails
-              </Link>
-            </li>
+            <li></li>
             <li>
               <Link
                 to="/ProjectsShowcase"
                 className="text-white hover:text-gray-300 focus:outline-none"
               >
-                ProjectShowcase1
+                ProjectShowcase
               </Link>
             </li>
           </ul>
